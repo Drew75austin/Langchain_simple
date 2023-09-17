@@ -19,6 +19,7 @@ fig = px.scatter(
     x='Military_Spending_Billion_USD',
     y='GDP_Trillion_USD',
     size='Population_Millions',
+    text='Country',
     title='Military Spending vs. GDP with Population Size'
 )
 
